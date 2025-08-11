@@ -11,8 +11,6 @@ The datasets used are publicly available:
 -   **MSSEG2016:** [https://portal.fli-iam.irisa.fr/msseg-challenge/](https://portal.fli-iam.irisa.fr/msseg-challenge/ )
 -   **ISBI2015:** [https://smart-stats-tools.org/](https://smart-stats-tools.org/ )
 
-Please download the datasets and place them in the `data/` directory.
-
 ## Preprocessing Pipeline
 
 The preprocessing pipeline is a crucial component of our methodology, ensuring consistency and optimal input for the MSRENet model. The `src/preprocess.py` script contains the MONAI-based implementation of this pipeline. The steps involved are detailed in the table below, mirroring the comprehensive preprocessing pipeline described in our paper:
